@@ -1,9 +1,6 @@
 import imapclient, ssl, sys, pprint, imaplib, getpass
 
-from numpy.lib.shape_base import expand_dims
-
 imaplib._MAXLINE = 10000000 
-
 
 print("Please choose a number below to conitue")
 print("1. Gmail")
